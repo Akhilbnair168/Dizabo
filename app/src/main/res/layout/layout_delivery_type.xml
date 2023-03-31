@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:layout_marginStart="5dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="8dp"
+    android:background="@drawable/delivery_type_border"
+    android:orientation="horizontal"
+    >
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="17dp"
+            android:src="@drawable/home_image"
+            android:layout_marginTop="6.6dp"
+            android:layout_marginBottom="6.6dp"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14.6dp"
+            android:layout_marginBottom="10.67dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/downward_arrow"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="start|top"
+        android:visibility="visible"
+        android:src="@drawable/tick_image"
+        />
+</FrameLayout>

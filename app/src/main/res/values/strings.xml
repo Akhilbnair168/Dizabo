@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dizabo</string>
+    <string name="list_item_cart_orginalamount"><strike>AED 500.00</strike></string>
+    <string name="cart_page_orginalamount"><strike>AED 500.00</strike></string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="21dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="11dp"
+    android:paddingEnd="17dp"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/image2"
+        android:layout_weight=".1"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_weight="2"
+        android:maxLines="2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Balado with Barbequed chicken"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inter_medium"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500.00 g"
+            android:textSize="10sp"
+            android:textColor="#808080"
+            android:fontFamily="@font/inter_regular"
+            android:paddingEnd="10dp"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/layout_quantity_changers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="1dp"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="11dp"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:gravity="end"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AED 250.00"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inter_medium"
+            android:maxLines="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/list_item_cart_orginalamount"
+            android:textSize="10sp"
+            android:textColor="#888888"
+            android:fontFamily="@font/inter_regular"
+
+            />
+    </LinearLayout>
+</LinearLayout>

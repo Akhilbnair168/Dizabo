@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="14dp"
+    android:paddingBottom="19dp"
+    >
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    >
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="138dp"
+        android:scaleType="fitXY"
+        android:background="@color/white"
+        android:src="@drawable/top_offer_image"
+        />
+</androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daylight Coffee"
+        android:textSize="16dp"
+        android:fontFamily="@font/euclid_circular_b_medium"
+        android:textColor="#333936"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$$ • American • Indonesia.."
+        android:textSize="12dp"
+        android:fontFamily="@font/euclid_circular_b_regular"
+        android:textColor="#818181"
+        android:layout_marginTop="8dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="4.5"
+            android:textSize="12dp"
+            android:fontFamily="@font/sf_pro_text_semibold"
+            android:textColor="#FFFFFF"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:background="@drawable/rating_button"
+            android:layout_weight=".5"
+            android:layout_gravity="start"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="25min"
+            android:textSize="11dp"
+            android:fontFamily="@font/euclid_circular_b_medium"
+            android:textColor="#333936"
+            android:layout_weight=".5"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="center"
+        />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:layout_marginStart="4dp"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="start"
+            android:src="@drawable/oval"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Free delivery"
+            android:layout_marginStart="4dp"
+            android:textSize="11dp"
+            android:fontFamily="@font/euclid_circular_b_medium"
+            android:textColor="#333936"
+            android:layout_weight="1"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="start"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="16dp"
+    android:paddingStart="24dp"
+    android:paddingEnd="25dp"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/list_item_mostpopular_image1"
+        android:layout_weight=".01"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_weight="4"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="5"
+                android:layout_gravity="center_vertical|start">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Balado"
+                    android:textSize="16sp"
+                    android:textColor="#010F07"
+                    android:fontFamily="@font/euclid_circular_b_medium"
+                    android:paddingEnd="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken, rice, and deadly-fire sauce"
+                    android:textSize="12sp"
+                    android:textColor="#818181"
+                    android:fontFamily="@font/euclid_circular_b_regular"
+                    android:paddingEnd="10dp"
+                    />
+            </LinearLayout>
+    <ImageView
+        android:src="@drawable/wishlist_buttton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_weight=".5"
+        android:visibility="visible"
+        />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="11dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="AED 12.4"
+                android:textSize="12sp"
+                android:textColor="#22A45D"
+                android:layout_weight="1"
+                android:layout_gravity="start|bottom"
+                android:gravity="start"
+                android:fontFamily="@font/euclid_circular_b_semibold"
+                android:paddingEnd="10dp"
+                />
+            <include
+                layout="@layout/layout_quantity_changers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_weight=".4"
+                android:visibility="visible"
+
+                />
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
